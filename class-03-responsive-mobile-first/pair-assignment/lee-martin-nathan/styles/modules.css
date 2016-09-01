@@ -62,9 +62,6 @@
 /* @media only screen... */
 
 @media (min-width: 960px) {
-    body {
-    background-color: lightblue;
-    }
     .icon-menu {
         display: none;
     }
