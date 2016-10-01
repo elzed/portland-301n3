@@ -9,6 +9,10 @@
     $about.show().siblings().hide();
   };
 
+
+    // var easyReadCreatedAt = moment(created_at).format('LL');
+
+
   // TODO: -DONE- Remember that new Handlebars template? Let's compile it!
   // Save the result in this `render` variable.
   var render = function(repo) {
@@ -25,8 +29,7 @@
     $('#about ul').append(
       // REVIEW: we added the `name` property here as our initial filter property. Try
       // changing it to see what happens!
-      repos.with('name').map(render)
-    );
+      repos.with('name').map(render));
   };
 
   module.repoView = repoView;
